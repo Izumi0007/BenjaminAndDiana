@@ -90,9 +90,84 @@
         
         <div class="divider"></div>
         
-        <h1>ДРЕСС-КОД</h1>
-        <p>Мы ждем и с удовольствием готовимся к нашему незабываемому дню!<br>
-        Поддержите нас вашими улыбками и объятиями, а так же красивыми нарядами в палитре торжества</p>
+        <div class="dress-code-section">
+    <h2>ДРЕСС-КОД</h2>
+    <p>Мы ждём с удовольствием и готовимся к нашему незабываемому дню!<br>
+    Поддержите нас красивыми нарядами в палитре торжества:</p>
+    
+    <!-- Цветовая палитра (6 цветов) -->
+    <div class="color-palette">
+        <div class="color-box" style="background: #5F4A2F;">
+            
+        </div>
+        <div class="color-box" style="background: #7C825E;">
+
+        </div>
+        <div class="color-box" style="background: #CDA38B;">
+            
+        </div>
+        <div class="color-box" style="background: #BCA68F;">
+            
+        </div>
+        <div class="color-box" style="background: #D6B4AB;">
+            
+        </div>
+        <div class="color-box" style="background: #FDE8E7;">
+            
+        
+            
+        </div>
+    </div>
+    
+    <p class="dress-code-note">Просим придерживаться этой палитры или нейтральных оттенков (белый, бежевый, серый)</p>
+</div>
+
+<style>
+    .dress-code-section {
+        text-align: center;
+        margin: 40px auto;
+        max-width: 600px;
+        font-family: 'Playfair Display', serif;
+        color: #5a4a4a;
+    }
+    
+    .color-palette {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 25px 0;
+    }
+    
+    .color-box {
+        width: 90px;
+        height: 90px;
+        border-radius: 8px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 8px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+    
+    .color-box:hover {
+        transform: scale(1.05);
+    }
+    
+    .color-box span {
+        background: rgba(255,255,255,0.8);
+        padding: 2px 5px;
+        border-radius: 10px;
+        font-size: 0.75rem;
+    }
+    
+    .dress-code-note {
+        font-style: italic;
+        color: #777;
+        margin-top: 20px;
+    }
+</style>
         
         <div class="divider"></div>
  <img src="IMG_7390 (2).JPG" style="max-width: 80%; margin: 20px 0;">
@@ -200,7 +275,7 @@
         <div class="schedule">
         <!-- Венчание -->
         <div class="schedule-item">
-            <div class="time">13:00 - 14:00</div>
+            <div class="time">13:00 - 15:00</div>
             <div class="event">
                 <div class="event-title">Венчание</div>
                 <div class="event-details">Торжественная церемония</div>
@@ -209,7 +284,7 @@
         
         <!-- 1 часть -->
         <div class="schedule-item">
-            <div class="time">14:00 - 17:00</div>
+            <div class="time">15:00 - 17:00</div>
             <div class="event">
                 <div class="event-title">1 часть праздника</div>
                 <div class="event-details">Фуршет, поздравления, фотосессия</div>
